@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRIMPRA</title>
+    <meta name="description" content="GRIMPRA, site dédié à l'escalade : histoire, pratiques, spots et grimpeurs de légende.">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/2130773faf.js" crossorigin="anonymous" aria-hidden="true"></script>
+    <script src="js/slideshow.js"></script>
+</head>
+
+<body>
+    <div class="fond">
+        <div class="corps">
+            <header class="tete" role="banner">
+
+                <div class="image">
+
+                    <img src="img/cuvier.jpg" alt="Bloc d'escalade au Cuvier à Fontainebleau">
+
+                </div>
+
+                <nav class="menu" aria-label="Navigation principale">
+
+                    <div class="titre">
+
+                        <a href="index.html">
+                            <h1>GRIMPRA</h1>
+                        </a>
+
+                    </div>
+
+                    <div class="liens">
+
+                        <div><a href="spots.html"><i class="fa-solid fa-mountain" aria-hidden="true"></i><span>Les plus beaux spots
+                                    d'escalade</span></a></div>
+                        <div><a href="grimpeurs.html"><i class="fa-solid fa-user" aria-hidden="true"></i><span>Les grimpeurs de légende</span></a></div>
+                        <div><a href="conseils.html"><i class="fa-solid fa-hand" aria-hidden="true"></i><span>Des conseils de grimpeur</span></a></div>
+
+                    </div>
+
+                </nav>
+            </header>
+
+            <main class="page" role="main">
+
+                <h1 class="visually-hidden">Accueil du site GRIMPRA</h1>
+
+                <section class="slideshow-container" aria-label="Galerie d'images de grimpeurs célèbres">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="img/ondra_silence.jpg" alt="Adam Ondra grimpant la voie Silence" style="width:100%">
+                        <div class="text">Adam Ondra sur Silence</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="img/garnbret_munich.jpg" alt="Janja Garnbret en compétition à Munich" style="width:100%">
+                        <div class="text">Janja Garnbret à Munich</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="img/bertone_giravuelta.jpg" alt="Oriane Bertone sur la voie Giravuelta" style="width:100%">
+                        <div class="text">Oriane Bertone sur Giravuelta</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <button class="prev" type="button" onclick="plusSlides(-1)" aria-label="Image précédente">&#10094;</button>
+                    <button class="next" type="button" onclick="plusSlides(1)" aria-label="Image suivante">&#10095;</button>
+                </section>
+                <br>
+
+                <!-- The dots/circles -->
+                <div class="slideshow-dots" style="text-align:center" aria-label="Sélection de l'image du diaporama">
+                    <button class="dot" type="button" onclick="currentSlide(1)" aria-label="Afficher l'image 1"></button>
+                    <button class="dot" type="button" onclick="currentSlide(2)" aria-label="Afficher l'image 2"></button>
+                    <button class="dot" type="button" onclick="currentSlide(3)" aria-label="Afficher l'image 3"></button>
+                </div>
+
+                <section class="contenu" aria-label="Présentation de l'escalade">
+                    <div class="conteneur">
+                        <h2 class="histoire"><u>L'histoire du sport</u></h2>
+                        <div class="texte">L’escalade, autrefois pratiquée principalement comme moyen d’exploration ou
+                            d’alpinisme, est devenue un sport à part entière au XXe siècle. Initialement cantonnée aux
+                            montagnes et parois naturelles, l’escalade a évolué avec l’apparition des premières
+                            falaises-écoles puis des murs artificiels dans les années 1980. Ce développement a permis la
+                            démocratisation de la pratique et la création de compétitions internationales. Aujourd’hui,
+                            l’escalade sportive, sous ses différentes formes (bloc, difficulté, vitesse), continue de
+                            gagner
+                            en popularité et figure même au programme des Jeux Olympiques depuis 2021.</div>
+                    </div>
+                    <div class="conteneur">
+                        <h2 class="histoire"><u>Les différentes pratiques</u></h2>
+                        <div class="texte">
+                            <u>Bloc :</u> sans corde, sur des passages courts et intenses, avec crash-pads. <br>
+                            <u>Difficulté (lead) :</u> à la corde sur des voies de 15 à 40 m, on clippe des dégaines ;
+                            endurance et
+                            lecture. <br>
+                            <u>Vitesse :</u> voie standardisée en salle, chronométrée ; format compétitif. <br>
+                            <u>Falaise sportive :</u> rocher équipé de spits ; sécurité « pré-placée », recherche de la
+                            chaîne. <br>
+                            <u>Trad</u> (terrain d’aventure) : protections amovibles (coinceurs, friends) ; engagement et
+                            pose des
+                            points. <br>
+                            <u>Salle :</u> murs artificiels pour entraînement et compétitions. <br>
+                            <u>Glace/mixte :</u> piolets et crampons sur glace ou rocher+glace. <br>
+                            <u>Psicobloc :</u> sans corde au-dessus de l’eau ; chute dans la mer comme protection. <br>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer role="contentinfo">
+                <p>© 2025 GRIMPRA. Tous droits réservés.</p>
+                <a href="about.html">À propos</a>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
