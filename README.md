@@ -2,6 +2,8 @@
 
 Un site web dédié à la passion de l'escalade, présentant les plus beaux spots, les grimpeurs de légende et des conseils pour débuter.
 
+Bonjour, comme je n'ai pas réussi à 'sync changes' ce vendredi 19 à 21h31, je vous remet le projet complet içi, si vous souhaitez voir tous les commits, ils sont présent sur mon repo 'proj'
+
 https://eloi-saint-gaudin.github.io/proj/
 
 ##  Design
